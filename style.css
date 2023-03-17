@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+#logo-color i img {
+    width: 50px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    color: rgba(255, 166, 0);
+    font-weight: bold;
+}
+
+#menu-color {
+    background-color: rgba(255, 166, 0);
+}
+
+.navbar-brand:hover {
+    color: rgba(255, 166, 0);
+}
+
+#navbar-color {
+    background-color: rgb(2, 2, 25);
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+#first {
+    border-bottom: 2px solid rgba(255, 166, 0);
+}
+
+#second {
+    border-bottom: 2px solid rgba(255, 166, 0);
+}
+
+#third {
+    border-bottom: 2px solid rgba(255, 166, 0);
+}
+
+#fourth {
+    border-bottom: 2px solid rgba(255, 166, 0);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 166, 0);
+    box-shadow: 0 0 5px rgba(255, 166, 0),
+        0 0 20px rgba(255, 166, 0),
+        0 0 60px rgba(255, 166, 0),
+        0 0 150px rgba(255, 166, 0);
+    color: black;
+}
+
+.main-content {
+    width: 100%;
+    height: 90vh;
+    background-image: url(Images/b.jpg);
+    background-size: cover;
+    background-position: 73%;
+}
+
+.content {
+    padding-top: 160px;
+    margin-left: 50px;
+    color: white;
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.content h2 {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#btn1 button {
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(255, 166, 0);
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+#btn1 button:hover {
+    background-color: rgba(255, 166, 0);
+    box-shadow: 0 0 5px rgba(255, 166, 0),
+        0 0 20px rgba(255, 166, 0),
+        0 0 60px rgba(255, 166, 0),
+        0 0 150px rgba(255, 166, 0);
+}
+
+.card {
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    margin: auto;
+}
+
+.best-card .card:hover {
+    transform: translateY(-15px);
+}
+
+.best-card h1 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+.best-card p {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+.card-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-content h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-content h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/burger3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 69%;
+}
+
+.banner h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 5px;
+    text-shadow: 2px 1px 5px black;
+}
+
+.change-content:after {
+    content: ' ';
+    animation: changetext 10s infinite linear;
+    color: rgba(255, 166, 0);
+
+}
+
+@keyframes changetext {
+    0% {
+        content: " Indian";
+    }
+
+    20% {
+        content: " Chinese";
+    }
+
+    60% {
+        content: " Italian";
+    }
+
+    80% {
+        content: " Mexican";
+    }
+
+    100% {
+        content: " Thai";
+    }
+}
+
+.banner h2 {
+    font-size: 50px;
+    color: rgba(255, 166, 0);
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 5px;
+}
+
+#btn2 button {
+    width: 200px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(255, 166, 0);
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#btn2 button:hover {
+    background-color: rgba(255, 166, 0);
+    box-shadow: 0 0 5px rgba(255, 166, 0),
+        0 0 20px rgba(255, 166, 0),
+        0 0 60px rgba(255, 166, 0),
+        0 0 150px rgba(255, 166, 0);
+
+}
+
+.new-card {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.new-card .card:hover {
+    transform: translateY(-15px);
+}
+
+.new-card h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#btn3 {
+    text-align: center;
+}
+
+#btn3 button {
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255, 166, 0);
+    transition: 0.50s ease-in;
+    cursor: pointer;
+
+}
+
+#btn3 button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+/*GALLERY SECTION*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.column img:hover {
+    filter: grayscale(0);
+}
+
+@media screen and (max-width:800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .column img {
+        filter: grayscale(0) brightness(1);
+    }
+}
+
+/*FOOTER SECTION*/
+
+#footer {
+    background-color: rgb(2, 2, 25);
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+#footer .footer-links a {
+    color: white;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#footer .footer-links a:first-child {
+    padding-left: 0;
+}
+
+#footer .footer-links a:hover {
+    color: rgba(255, 166, 0);
+}
+
+.copyright {
+    color: beige;
+    font-size: 20px;
+}
+
+.icon {
+    margin-top: -40px;
+}
+
+.icon a {
+    color: beige;
+    margin-left: 5px;
+}
+
+.foot {
+    margin-top: 10px;
+}
+
+.foot a {
+    font-size: 20px;
+    color: beige;
+    margin-left: 5px;
+}
